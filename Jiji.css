@@ -247,22 +247,30 @@ button:hover {
 }
 
 @media screen and (max-width: 800px) { 
+    nav.about {
+        padding-right: 6rem;
+    }
+
+    nav.service {
+        padding-right: 7rem;
+    }
+
     #header {
         padding: 3rem 1rem;
         text-align: center;
         margin-bottom: 3rem;
     }
     
-    #about-jigisimur {
+    .about-jigisimur {
         background-color: #fd6a6a;
         text-align: center;
-        padding: 3rem 1rem;
+        padding: 4rem 2rem;
     }
     
-    #our-services {
+    .our-services {
         background-color: antiquewhite;
         text-align: center;
-        padding: 5rem 1rem;
+        padding: 3rem 2rem;
     }
     
     #send-us-a-message {
@@ -356,8 +364,12 @@ button:hover {
         display: grid;
         grid-template-columns: 1fr;
     }
-    
+
     h1 {
+        margin-top: 1.3rem;
+    }
+    
+    h1.title {
         font-size: 2.5rem;
         font-weight: 700;
         letter-spacing: -1px;
@@ -459,6 +471,14 @@ button:hover {
         padding: 20px;
         border-radius: 3rem;
         size-adjust: 1px;
+    }
+
+    img.back-2 {
+        background-color: antiquewhite;
+    }
+
+    img.back-1 {
+        background-color: #fd6a6a;
     }
     
     button {
