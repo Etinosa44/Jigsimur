@@ -171,6 +171,10 @@ p {
     margin-bottom: 2rem;
 }
 
+p.distrubute {
+    font-size: 1.5rem;
+}
+
 p.explanation {
     margin-top: 3rem;
     font-size: 1.5rem;
