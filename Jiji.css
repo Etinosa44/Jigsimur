@@ -499,6 +499,10 @@ button:hover {
     img.back-1 {
         background-color: #fd6a6a;
     }
+
+    img.price {
+        height: 16rem;
+    }
     
     button {
         padding: 1rem 10rem;
