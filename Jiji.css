@@ -41,7 +41,7 @@ nav.service {
 .our-services {
     background-color: antiquewhite;
     text-align: center;
-    padding: 7rem 20rem;
+    padding: 7rem 5rem;
 }
 
 #send-us-a-message {
@@ -216,6 +216,12 @@ ul.abt {
     align-content: center;
 }
 
+ul.price {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
 li {
     list-style: none;
     text-align: start;
@@ -232,6 +238,11 @@ img {
     background-color: white;
     padding: 8px;
     border-radius: 3rem;
+}
+
+img.price {
+    height: 18.5rem;
+    padding: 1.5rem;
 }
 
 button {
@@ -462,6 +473,10 @@ button:hover {
         text-align : center;
         align-items: center;
         align-content: center;
+    }
+
+    ul.price {
+        grid-template-columns: 1fr;
     }
     
     li {
